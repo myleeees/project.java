@@ -1,6 +1,15 @@
 
 public class Person {
 
-public first name int x;
-public last name int y;
+private int x;
+public int getFirstName(){
+return x;
+
+}
+
+ private int y;
+public int getLastName(){
+return y;
+
+}
 }
